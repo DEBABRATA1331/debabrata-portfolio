@@ -2,8 +2,16 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\z0054sde\source\repos\PORTFOLIOWEBSITE\PORTFOLIOWEBSITE\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <_PublishTargetUrl>bin\Release\net8.0\publish\</_PublishTargetUrl>
     <History>True|2025-06-12T05:49:30.9738586Z||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/images/Picsart_25-06-12_16-45-39-836.png">
+      <publishTime>06/12/2025 17:54:00</publishTime>
+    </File>
+    <File Include="wwwroot/Picsart_25-06-12_16-45-39-836.png">
+      <publishTime>06/12/2025 17:54:00</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

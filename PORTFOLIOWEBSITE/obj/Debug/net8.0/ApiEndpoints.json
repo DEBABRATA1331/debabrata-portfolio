@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "PortfolioWebsite.Controllers.ContactController",
+    "Method": "Submit",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "PortfolioWebsite.Models.ContactMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
