@@ -1,26 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\",
+  "WorkspaceRootPath": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\sanjib.sahoo\\downloads\\portfoliowebsite\\portfoliowebsite\\portfoliowebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\sanjib.sahoo\\downloads\\portfoliowebsite\\portfoliowebsite\\portfoliowebsite\\views\\home\\achievments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\achievments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\achievments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\sanjib.sahoo\\downloads\\portfoliowebsite\\portfoliowebsite\\portfoliowebsite\\views\\home\\achievments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\achievments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\sanjib.sahoo\\downloads\\portfoliowebsite\\portfoliowebsite\\portfoliowebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\sanjib.sahoo\\downloads\\portfoliowebsite\\portfoliowebsite\\portfoliowebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\internship.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\internship.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\achievments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\achievments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|c:\\users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\portfoliowebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CFDC723-BA3B-45A3-B619-3935CB7E0CAD}|PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE.csproj|solutionrelative:portfoliowebsite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +74,231 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T05:50:58.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:56:30.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Program.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Program.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Program.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T03:04:30.875Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T05:14:05.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Home\\Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-12T07:59:25.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Achievments.cshtml",
-              "DocumentMoniker": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
-              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
-              "ToolTip": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
-              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:59:16.907Z"
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\appsettings.json",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\appsettings.json",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\appsettings.json",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T03:02:18.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Achievments.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
-              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
-              "ToolTip": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
-              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:59:14.564Z"
+              "WhenOpened": "2025-06-13T05:56:57.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PORTFOLIOWEBSITE\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T07:56:30.987Z"
+              "WhenOpened": "2025-06-13T06:03:21.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\sanjib.sahoo\\Downloads\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Skills.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Skills.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Skills.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Skills.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwC0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:56:03.455Z"
+              "WhenOpened": "2025-06-12T15:52:43.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T13:50:45.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T13:50:28.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Achievments.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T07:59:16.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T07:56:03.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Internship.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Internship.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Internship.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Internship.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Internship.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T16:22:08.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Achievments.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Achievments.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:59:14.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Projects.cshtml",
+              "RelativeDocumentMoniker": "PORTFOLIOWEBSITE\\Views\\Home\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\z0054sde\\source\\repos\\debabrata-portfolio.git\\PORTFOLIOWEBSITE\\Views\\Home\\Projects.cshtml",
+              "RelativeToolTip": "PORTFOLIOWEBSITE\\Views\\Home\\Projects.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwF8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T14:15:48.064Z",
+              "EditorCaption": ""
             }
           ]
         }
