@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-PORTFOLIOWEBSITE",
+      "appliesTo": "debabrata-portfolio.git/PORTFOLIOWEBSITE/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-PORTFOLIOWEBSITE",
+      "appliesTo": "debabrata-portfolio.git/PORTFOLIOWEBSITE/",
+      "type": "launch"
+    }
+  ]
+}
