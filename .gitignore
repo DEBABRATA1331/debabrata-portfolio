@@ -1,0 +1,40 @@
+# === Build artifacts ===
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+
+# === Visual Studio ===
+.vs/
+*.user
+*.suo
+*.sln.docstates
+.vscode/
+
+# === OS-generated ===
+Thumbs.db
+.DS_Store
+
+# === Environment config ===
+*.env
+appsettings.Development.json
+
+# === Render & Docker (optional) ===
+Dockerfile.*
+render.yaml
+*.tar
+*.zip
+
+# === Copilot & AI plugin data ===
+CopilotIndices/
+.vs/*/CopilotIndices/
+.vs/*/FileContentIndex/
+.vs/*/v*/.wsuo
+.vs/*/v*/DocumentLayout*
+
+# === Others ===
+*.sqlite
+tasks.vs.json

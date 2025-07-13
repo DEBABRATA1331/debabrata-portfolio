@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container my-5 animate__animated animate__fadeIn">
+    <h1 class="display-5 fw-bold text-info text-center">@ViewData["Title"]</h1>
+    <p class="text-muted text-center mb-5">We value your privacy. Here's everything you need to know.</p>
+
+    <div class="accordion accordion-flush" id="privacyAccordion">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                    1. What We Collect
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Your name, email, and contact details (if submitted)</li>
+                        <li>Anonymous site usage data (IP, browser, device)</li>
+                        <li>Messages via the contact form</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    2. How We Use It
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                <div class="accordion-body">
+                    We use your info to:
+                    <ul>
+                        <li>Respond to your queries</li>
+                        <li>Improve site experience</li>
+                        <li>Protect against spam or abuse</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                    3. Third-party Sharing
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                <div class="accordion-body">
+                    <p>We do not sell or share your data. Third-party integrations (e.g., GitHub, Google Fonts) may use cookies or trackers. Review their policies separately.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                    4. Cookies & Tracking
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                <div class="accordion-body">
+                    <p>We may use cookies for anonymous analytics and a smoother user experience. You can disable cookies via browser settings.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                    5. Contact Us
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#privacyAccordion">
+                <div class="accordion-body">
+                    Questions or concerns? Email us at <a href="mailto:youremail@example.com">youremail@example.com</a>.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="container text-center mt-5 text-secondary small animate__animated animate__fadeInUp">
+    <p>Last Updated: July 2025 | © Debabrata Sahoo Portfolio</p>
+</div>
+
+<!-- Styling -->
+<style>
+    body {
+        background: #0c0c0c;
+        color: #e0f7fa;
+    }
+
+    .accordion-button {
+        background-color: #1c1c1c;

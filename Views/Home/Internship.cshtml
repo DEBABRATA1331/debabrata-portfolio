@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Internships";
+}
+
+<!-- External Animations + Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+<!-- Section Header -->
+<div class="container my-5 text-center animate__animated animate__fadeInDown">
+    <h2 class="fw-bold neon-text">Internships</h2>
+    <p class="lead neon-subtext">Hands-on experience in MedTech, IoT, VLSI, and Electric Vehicles</p>
+</div>
+
+<!-- Internship Cards -->
+<div class="container my-4">
+    <div class="row g-4 justify-content-center">
+
+        <!-- Siemens Healthineers -->
+        <div class="col-md-6 animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="internship-card h-100">
+                <h5 class="fw-bold">Digital & Automation – Siemens Healthineers</h5>
+                <p><strong>May 2025 – Ongoing</strong></p>
+                <p>Interning on automation pipeline, biomedical diagnostics, and AI-integrated medical systems.</p>
+            </div>
+        </div>
+
+        <!-- CTTC IoT Internship -->
+        <div class="col-md-6 animate__animated animate__fadeInUp animate__delay-2s">
+            <div class="internship-card h-100">
+                <h5 class="fw-bold">IoT Internship – CTTC Bhubaneswar</h5>
+                <p><strong>Dec 2024 – Jan 2025</strong></p>
+                <p>Worked on real-time sensor integration, cloud communication via ESP8266, and automation.</p>
+            </div>
+        </div>
+
+        <!-- NIT Manipur EV Internship -->
+        <div class="col-md-6 animate__animated animate__fadeInUp animate__delay-3s">
+            <div class="internship-card h-100">
+                <h5 class="fw-bold">EV Charging – NIT Manipur</h5>
+                <p><strong>June 2024 – July 2024</strong></p>
+                <p>Explored optimization strategies for EV charging stations and analyzed energy systems.</p>
+            </div>
+        </div>
+
+        <!-- CTTC VLSI Internship -->
+        <div class="col-md-6 animate__animated animate__fadeInUp animate__delay-4s">
+            <div class="internship-card h-100">
+                <h5 class="fw-bold">VLSI Internship – CTTC Bhubaneswar</h5>
+                <p><strong>May 2024 – June 2024</strong></p>
+                <p>VLSI logic design using DSCH2 & Xilinx; simulated 4-bit microprocessor modules.</p>
+            </div>
+        </div>
+
+        <!-- Intel + VSD @ IIT Bangalore -->
+        <div class="col-md-6 animate__animated animate__fadeInUp animate__delay-5s">
+            <div class="internship-card h-100">
+                <h5 class="fw-bold">VLSI Design – IIT Bangalore (Intel + VSD)</h5>
+                <p><strong>Nov 2023 – Mar 2024</strong></p>
+                <p>6-month advanced training on VLSI implementation, custom design flows, and SoC simulation.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Certificate Button -->
+<div class="text-center my-5 animate__animated animate__fadeInUp animate__delay-6s">
+    <a href="https://drive.google.com/drive/folders/1vjjLkk2MjoIsz71TsKoDEU2qpjCa1asE?usp=sharing"
+       target="_blank"
+       class="btn neon-btn btn-lg">
+        📄 View Internship Certificates
+    </a>
+</div>
+
+<!-- Custom Style -->
+<style>
+    body {
+        background: #0d0d0d;
+        color: #e0f7fa;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .neon-text {
+        color: #00f7ff;
+        text-shadow: 0 0 5px #00f7ff, 0 0 10px #00f7ff;
+    }
+
+    .neon-subtext {
+        color: #aefeff;
+    }
+
+    .internship-card {
+        background: linear-gradient(145deg, #121212, #1e1e1e);
+        border: 1px solid #00f7ff44;
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 0 25px rgba(0, 247, 255, 0.08);
+        color: #eafcff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .internship-card:hover {
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 0 30px rgba(0, 247, 255, 0.3);
+    }
+
+    .neon-btn {
+        border: 2px solid #00f7ff;
+        background-color: transparent;
+        color: #00f7ff;
+        padding: 10px 20px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 15px #00f7ff77;
+    }
+
+    .neon-btn:hover {
+        background-color: #00f7ff;
+        color: #000;
+        transform: scale(1.05);
+        box-shadow: 0 0 25px #00f7ff;
+    }
+</style>

@@ -1,0 +1,199 @@
+﻿@{
+    ViewData["Title"] = "Contact Me";
+}
+
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- Section Header -->
+<div class="container my-5 text-center" data-aos="fade-down" data-aos-duration="1200">
+    <h2 class="fw-bold neon-text">Contact Me</h2>
+    <p class="lead">Let’s connect! Feel free to reach out for collaboration, internships, or IEEE projects.</p>
+</div>
+
+<!-- Neon Contact Form -->
+<div class="container contact-form my-5" id="contactSection">
+    <div class="row justify-content-center">
+        <div class="col-md-8 bg-glow animate__animated animate__fadeInUp" data-aos="zoom-in" data-aos-duration="1200">
+            <form id="contactForm">
+                <div class="mb-3 text-start">
+                    <label for="name" class="form-label fw-semibold neon-text">Your Name</label>
+                    <input type="text" class="form-control form-field" id="name" placeholder="Enter your full name" required />
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="email" class="form-label fw-semibold neon-text">Email Address</label>
+                    <input type="email" class="form-control form-field" id="email" placeholder="example@gmail.com" required />
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="subject" class="form-label fw-semibold neon-text">Subject</label>
+                    <input type="text" class="form-control form-field" id="subject" placeholder="Message subject" required />
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="message" class="form-label fw-semibold neon-text">💬 Message</label>
+                    <textarea class="form-control form-field" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn neon-btn px-4 py-2">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Thank You Message -->
+<div id="thankYouMessage" class="text-center my-5 animate__animated animate__fadeInUp" style="display: none;">
+    <h4 class="text-success fw-bold">Thank you for reaching out!</h4>
+    <p>I’ll respond as soon as possible.</p>
+</div>
+
+<!-- Contact Info with Dropdown -->
+<div class="container my-5 text-center" data-aos="fade-up" data-aos-delay="300">
+    <h5 class="mb-3 fw-semibold neon-text">You can also reach me on:</h5>
+    <div class="dropdown d-inline-block">
+        <button class="btn neon-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Choose Platform
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark animate__animated animate__fadeIn">
+            <li><a class="dropdown-item" href="mailto:youremail@example.com">Email</a></li>
+            <li><a class="dropdown-item" href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+            <li><a class="dropdown-item" href="https://github.com/DEBABRATA1331" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- Rate My Portfolio -->
+<div class="container my-5" data-aos="zoom-in" data-aos-delay="500">
+    <h4 class="text-center fw-bold neon-text mb-3">⭐ Rate My Portfolio</h4>
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center bg-light p-4 rounded shadow">
+            <label for="ratingRange" class="form-label fw-semibold">How would you rate this site?</label>
+            <input type="range" class="form-range" min="1" max="10" id="ratingRange" step="1" oninput="updateRating(this.value)">
+            <p class="mt-2">
+                Selected Level: <span id="ratingValue" class="fw-bold">5</span>/10
+            </p>
+            <button class="btn btn-outline-success mt-2" onclick="submitRating()">Submit Rating</button>
+        </div>
+    </div>
+</div>
+
+<!-- ChatBot -->
+<div class="container mt-5 bg-light p-4 rounded shadow" data-aos="fade-up" data-aos-delay="600">
+    <h5 class="fw-bold neon-text">💬 Chat With My Portfolio</h5>
+    <div class="mb-2">
+        <input type="text" id="chatInput" class="form-control form-field" placeholder="Type a question..." />
+    </div>
+    <button class="btn neon-btn" onclick="sendMessage()">Ask</button>
+    <div id="chatResponse" class="mt-3 text-primary fw-semibold"></div>
+</div>
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<!-- Contact Form Script -->
+<script>
+    document.getElementById('contactForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+        const data = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            subject: document.getElementById('subject').value,
+            message: document.getElementById('message').value
+        };
+        const res = await fetch('/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        if (res.ok) {
+            document.getElementById('contactSection').style.display = 'none';
+            document.getElementById('thankYouMessage').style.display = 'block';
+        } else {
+            alert("Something went wrong.");
+        }
+    });
+
+    function updateRating(value) {
+        document.getElementById('ratingValue').innerText = value;
+    }
+
+    function submitRating() {
+        const rating = document.getElementById('ratingRange').value;
+        alert("Thank you! You rated this portfolio: " + rating + "/10");
+    }
+
+    async function sendMessage() {
+        const input = document.getElementById('chatInput').value;
+        if (!input.trim()) return;
+
+        const res = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: input })
+        });
+
+        const result = await res.json();
+        document.getElementById('chatResponse').innerText = "🤖: " + result.reply;
+    }
+</script>
+
+<!-- Neon & Animation Styles -->
+<style>
+    .neon-text {
+        color: #00f7ff;
+        text-shadow: 0 0 5px #00f7ff, 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+    }
+
+    .form-field {
+        background-color: #0e0e0e;
+        color: #00f7ff;
+        border: 1px solid #00f7ff;
+        box-shadow: inset 0 0 5px #00f7ff;
+    }
+
+    .form-field::placeholder {
+        color: #8efcff;
+    }
+
+    .form-field:focus {
+        box-shadow: 0 0 10px #00f7ff;
+        border-color: #00f7ff;
+    }
+
+    .neon-btn {
+        background-color: transparent;
+        border: 2px solid #00f7ff;
+        color: #00f7ff;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 5px #00f7ff;
+    }
+
+    .neon-btn:hover {
+        background-color: #00f7ff;
+        color: #000;
+        box-shadow: 0 0 20px #00f7ff;
+        transform: scale(1.05);
+    }
+
+    .dropdown-menu {
+        animation: fadeIn 0.3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            transform: translateY(10px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .bg-glow {
+        background: linear-gradient(145deg, #001f3f, #0a0a0a);
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: 0 0 25px #00f7ff33;
+    }
+</style>

@@ -1,0 +1,143 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Animate.css + Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+<div class="container text-center my-5">
+    <h1 class="display-4 fw-bold neon-text animate__animated animate__fadeInDown">Welcome to My Portfolio</h1>
+    <p class="lead neon-subtext animate__animated animate__fadeIn animate__delay-1s">
+        Dual-degree student at <span class="fw-semibold">VSSUT & IIT Madras</span><br />
+        Passionate about Health Care, LiFi, EVs, VLSI, and impactful innovation.
+    </p>
+
+    <div class="my-4 animate__animated animate__zoomIn animate__delay-2s">
+        <img src="~/images/Picsart_25-06-12_16-45-39-836.png"
+             class="rounded-circle profile-pic"
+             alt="Debabrata Sahoo" />
+    </div>
+
+    <h2 class="mt-4 neon-text animate__animated animate__fadeInUp animate__delay-1s">Hi, I'm Debabrata Sahoo 👋</h2>
+    <p class="lead text-light animate__animated animate__fadeInUp animate__delay-2s">
+        Innovator | IEEE Leader | Tech Enthusiast
+    </p>
+</div>
+
+<!-- Feature Grid -->
+<div class="container my-5">
+    <div class="row g-4 text-center">
+        <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="p-4 border rounded shadow card-neon">
+                <h4>🎓 Academics</h4>
+                <p>VSSUT + IIT Madras</p>
+            </div>
+        </div>
+        <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+            <div class="p-4 border rounded shadow card-neon">
+                <h4>🏆 Achievements</h4>
+                <p>IEEE Best Student 2024</p>
+            </div>
+        </div>
+        <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-3s">
+            <div class="p-4 border rounded shadow card-neon">
+                <h4>💡 Projects</h4>
+                <p>LiFi | EV Charging | IoT</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Resume & Links -->
+<div class="text-center my-5 animate__animated animate__fadeInUp animate__delay-4s">
+    <h2 class="neon-text">📂 Resume & Links</h2>
+    <a href="https://drive.google.com/file/d/1KLeJrgbpvwbYsrcUyyKPCAK_7ZlPfsoP/view?usp=drive_link"
+       target="_blank"
+       class="btn neon-btn m-2">
+        📄 View Resume (PDF)
+    </a>
+
+    <a href="https://github.com/DEBABRATA1331"
+       target="_blank"
+       class="btn neon-btn m-2">
+        <i class="bi bi-github"></i> GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/debabrata-sahoo-ieee1331/"
+       target="_blank"
+       class="btn neon-btn m-2">
+        <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+</div>
+
+<!-- About Link -->
+<div class="text-center my-4 animate__animated animate__fadeIn animate__delay-5s">
+    <a href="/Home/About" class="btn neon-btn">Learn more about me →</a>
+</div>
+
+<!-- Custom CSS -->
+<style>
+    body {
+        background: #0e0e0e;
+        color: #e0f7fa;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .neon-text {
+        color: #00f7ff;
+        text-shadow: 0 0 5px #00f7ff, 0 0 15px #00f7ff, 0 0 30px #00f7ff;
+    }
+
+    .neon-subtext {
+        color: #8efcff;
+    }
+
+    .profile-pic {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border: 3px solid #00f7ff;
+        box-shadow: 0 0 20px #00f7ff88;
+        transition: transform 0.3s ease;
+    }
+
+    .profile-pic:hover {
+        transform: scale(1.05);
+    }
+
+    .neon-btn {
+        background-color: transparent;
+        border: 2px solid #00f7ff;
+        color: #00f7ff;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 10px #00f7ff;
+    }
+
+    .neon-btn:hover {
+        background-color: #00f7ff;
+        color: #000;
+        box-shadow: 0 0 25px #00f7ff;
+        transform: scale(1.05);
+    }
+
+    .card-neon {
+        background-color: #0f1b2a;
+        border-left: 5px solid #00f7ff;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card-neon:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 20px #00f7ff33;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+</style>

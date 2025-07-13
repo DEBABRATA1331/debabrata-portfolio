@@ -1,0 +1,133 @@
+﻿@{
+    ViewData["Title"] = "My Projects";
+}
+
+<!-- External Libraries -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+<div class="container my-5 text-center" data-aos="fade-down" data-aos-duration="1000">
+    <h2 class="fw-bold neon-text">My Key Projects</h2>
+    <p class="lead text-muted">From real-time IoT systems to smart healthcare tools and VLSI designs.</p>
+</div>
+
+<!-- Project Grid -->
+<div class="container my-5">
+    <div class="row g-4">
+
+        <!-- Solar-Link -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="project-card">
+                <h5 class="fw-bold">Solar-Link (IEEE Global Top 100)</h5>
+                <p>Solar-powered LiFi-based communication system for high-speed wireless access in remote zones.</p>
+                <a href="https://drive.google.com/file/d/1PEcIQ5ip4b_PSilPbxmSS2xfiC8yfiNZ/view?usp=sharing" target="_blank" class="btn neon-btn btn-sm">View</a>
+            </div>
+        </div>
+
+        <!-- Glaucoma Detection -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="project-card">
+                <h5 class="fw-bold">Glaucoma Detection (SIH 2024)</h5>
+                <p>Ultrasound-based IOP measurement system for early-stage glaucoma diagnosis.</p>
+                <a href="https://drive.google.com/file/d/1PEcIQ5ip4b_PSilPbxmSS2xfiC8yfiNZ/view?usp=drive_link" target="_blank" class="btn neon-btn btn-sm">View</a>
+            </div>
+        </div>
+
+        <!-- SBOM Email Tool -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="project-card">
+                <h5 class="fw-bold">SBOM Comparison & Email Automation</h5>
+                <p>Auto-tracks software changes & sends dynamic email summaries using PowerShell + Power Automate.</p>
+            </div>
+        </div>
+
+        <!-- IEEE ExCom Tool -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="project-card">
+                <h5 class="fw-bold">IEEE ExCom Automation Tool</h5>
+                <p>Generates MoM, feedback reports & mass emails for IEEE chapters. Built with HTML + Python.</p>
+            </div>
+        </div>
+
+        <!-- IoT Irrigation System -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="project-card">
+                <h5 class="fw-bold">Smart IoT Irrigation</h5>
+                <p>ESP8266/ESP32 cloud irrigation for optimized water management & energy efficiency.</p>
+                <a href="https://drive.google.com/file/d/1u4FWkWaHBhu5U4VqkenKtS4-mHWraDJQ/view?usp=drive_link" target="_blank" class="btn neon-btn btn-sm">View</a>
+            </div>
+        </div>
+
+        <!-- 4-bit Microprocessor -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="project-card">
+                <h5 class="fw-bold">4-bit Microprocessor (Verilog)</h5>
+                <p>Designed ALU + custom ISA with 95% simulation accuracy using DSCH2 & Xilinx tools.</p>
+                <a href="https://drive.google.com/drive/folders/1ppcjm5CyIs5rKFOlxobJZACVWhXffDXG?usp=drive_link" target="_blank" class="btn neon-btn btn-sm">View</a>
+            </div>
+        </div>
+
+        <!-- Personal Portfolio -->
+        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="project-card">
+                <h5 class="fw-bold">My Personal Portfolio Website</h5>
+                <p>Interactive .NET website with resume, projects, contact form, and chat integration.</p>
+                <a href="https://debabrata-portfolio-2.onrender.com/" target="_blank" class="btn neon-btn btn-sm">Visit Site</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Project Category Links -->
+<div class="container my-5 text-center" data-aos="fade-up" data-aos-delay="800">
+    <h4 class="neon-text">Explore Project Categories</h4>
+    <a href="https://drive.google.com/drive/folders/1_rUWlcyZKedZIsY3UJWOWaE9VGGnTglh?usp=drive_link" target="_blank" class="btn neon-btn m-2">IoT Projects</a>
+    <a href="https://drive.google.com/drive/folders/1OGBVZXEuD9VAuFX9-1gDph3IFkVgFBNi?usp=sharing" target="_blank" class="btn neon-btn m-2">VLSI Projects</a>
+</div>
+
+<!-- Animation + Styling -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+<style>
+    body {
+        background-color: #0d0d0d;
+        color: #eafaff;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .neon-text {
+        color: #00f7ff;
+        text-shadow: 0 0 5px #00f7ff, 0 0 10px #00f7ff;
+    }
+
+    .project-card {
+        background: #121212;
+        border-left: 5px solid #00f7ff;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 0 25px rgba(0, 247, 255, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 35px rgba(0, 247, 255, 0.3);
+    }
+
+    .btn.neon-btn {
+        background: transparent;
+        border: 2px solid #00f7ff;
+        color: #00f7ff;
+        box-shadow: 0 0 10px #00f7ff55;
+        transition: all 0.3s ease;
+    }
+
+    .btn.neon-btn:hover {
+        background-color: #00f7ff;
+        color: #000;
+        transform: scale(1.05);
+        box-shadow: 0 0 25px #00f7ff;
+    }
+</style>
