@@ -1,0 +1,21 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+# Copy csproj and restore
+COPY PORTFOLIOWEBSITE/*.csproj ./
+WORKDIR /src
+COPY PORTFOLIOWEBSITE/. ./
+RUN dotnet restore
+
+# Build and publish
+RUN dotnet publish "debabrata-portfolio.csproj" -c Release -o /app/out
+
+# Runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/out ./
+
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
+ENTRYPOINT ["dotnet", "debabrata-portfolio.dll"]
