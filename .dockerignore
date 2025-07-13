@@ -1,0 +1,9 @@
+# Ignore build files and IDE stuff
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.log
+*.md
+PORTFOLIOWEBSITE.sln
